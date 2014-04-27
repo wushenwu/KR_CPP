@@ -1,0 +1,28 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: const - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPCC.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/const.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Programming\Git\KR\Ph1_CPP\n20140416\wbxu_20140416\const\const.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPCC.tmp" 
+<h3>Output Window</h3>
+Compiling...
+const.cpp
+E:\Programming\Git\KR\Ph1_CPP\n20140416\wbxu_20140416\const\const.cpp(40) : error C2440: '=' : cannot convert from 'const char *' to 'char *'
+        Conversion loses qualifiers
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+const.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
